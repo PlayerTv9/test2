@@ -1,0 +1,28 @@
+{
+  "homepage": "https://playertv9.github.io/Test1Babel/",
+  "name": "test",
+  "version": "1.0.0",
+  "description": "This is a test!",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js",
+    "build": "babel index.js --out-file build/index.js",
+    "dev": "nodemon build/index.js",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "PlayerTv9",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.7",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-cli": "^1.2.0",
+    "gh-pages": "^4.0.0",
+    "nodemon": "^2.0.20",
+    "serve": "^14.1.2"
+  }
+}
