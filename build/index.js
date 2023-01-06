@@ -32,3 +32,9 @@ app.get('/navbar', function (req, res) {
 app.get('/navJS', function (req, res) {
   res.sendFile(_path["default"].join(__dirname, '/includeHtml.js'));
 });
+
+// static img file
+
+app.get('/logo', function (req, res) {
+  res.sendFile(_path["default"].join(__dirname, 'files/img/logo.png'));
+});
