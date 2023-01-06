@@ -8,7 +8,7 @@ body{
     background-color: black;
 }
 
-h1, h2, p{
+h1, h2, h3, h4, p{
     color: white;
 }
 
@@ -48,6 +48,8 @@ h1, h2, p{
     padding: 0 100px;
     display: flex;
   }
+
+
 
 #button1 div, a{
     background-color: black;
