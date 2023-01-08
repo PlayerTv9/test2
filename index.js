@@ -19,22 +19,25 @@ app.listen(5000, function () {
   console.log("app is listening to port http://localhost:5000");
 });
 app.get('/pitagora', function (req, res) {
-  res.sendFile(_path["default"].join(__dirname, '/pitagora.html'));
+  res.sendFile(_path["default"].join(__dirname, 'files/pages/pitagora.html'));
 });
 
 //static files css
 app.get('/icss', function (req, res) {
-  res.sendFile(_path["default"].join(__dirname, '/index.css'));
+  res.sendFile(_path["default"].join(__dirname, 'files/style/index.css'));
 });
 app.get('/navbar', function (req, res) {
-  res.sendFile(_path["default"].join(__dirname, '/nav.html'));
+  res.sendFile(_path["default"].join(__dirname, 'files/component/nav.html'));
 });
 app.get('/navJS', function (req, res) {
-  res.sendFile(_path["default"].join(__dirname, '/includeHtml.js'));
+  res.sendFile(_path["default"].join(__dirname, 'files/script/includeHtml.js'));
 });
 
 // static img file
 
 app.get('/logo', function (req, res) {
   res.sendFile(_path["default"].join(__dirname, 'files/img/logo.png'));
+});
+app.get('/imgp2', function (req, res) {
+  res.sendFile(_path["default"].join(__dirname, 'files/img/soffice.bin_KEJCA5VLiN.png'));
 });
