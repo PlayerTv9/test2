@@ -38,3 +38,6 @@ app.get('/navJS',(req, res) =>{
 app.get('/logo',(req, res) =>{
     res.sendFile(path.join(__dirname, 'files/img/logo.png'));
 })
+app.get('/imgp2',(req, res) =>{
+    res.sendFile(path.join(__dirname, 'files/img/soffice.bin_KEJCA5VLiN.png'));
+})
