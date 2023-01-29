@@ -19,6 +19,9 @@ app.listen(5000,() => {
 app.get('/pitagora',(req, res) =>{
     res.sendFile(path.join(__dirname, 'files/pages/pitagora.html'));
 })
+app.get('/esercizi',(req, res) =>{
+    res.sendFile(path.join(__dirname, 'files/pages/esercizipitagora.html'));
+})
 
 
 //static files css
@@ -32,6 +35,9 @@ app.get('/navbar',(req, res) =>{
 app.get('/navJS',(req, res) =>{
     res.sendFile(path.join(__dirname, 'files/script/includeHtml.js'));
 })
+app.get('/esp',(req, res) =>{
+    res.sendFile(path.join(__dirname, 'files/script/espitagora.js'));
+})
 
 // static img file
 
@@ -40,4 +46,7 @@ app.get('/logo',(req, res) =>{
 })
 app.get('/imgp2',(req, res) =>{
     res.sendFile(path.join(__dirname, 'files/img/soffice.bin_KEJCA5VLiN.png'));
+})
+app.get('/imgp3',(req, res) =>{
+    res.sendFile(path.join(__dirname, 'files/img/qadrato.png'));
 })
