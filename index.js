@@ -57,4 +57,16 @@ app.get('/imgp4', (req, res) =>{
 app.get('/imgp5', (req, res) =>{
     res.sendFile(path.join(__dirname, 'files/img/trapezio.png'));
 })
+app.get('/imgp6', (req, res) =>{
+    res.sendFile(path.join(__dirname, 'files/img/trapezio_rettangolo.png'));
+})
+app.get('/imgp7', (req, res) =>{
+    res.sendFile(path.join(__dirname, 'files/img/trapezio_isoscele.png'));
+})
+app.get('/imgp8', (req, res) =>{
+    res.sendFile(path.join(__dirname, 'files/img/triangolo_isoscele.png'));
+})
+app.get('/imgp9', (req, res) =>{
+    res.sendFile(path.join(__dirname, 'files/img/triangolo_equilatero.png'));
+})
 
