@@ -50,3 +50,11 @@ app.get('/imgp2',(req, res) =>{
 app.get('/imgp3',(req, res) =>{
     res.sendFile(path.join(__dirname, 'files/img/qadrato.png'));
 })
+
+app.get('/imgp4', (req, res) =>{
+    res.sendFile(path.join(__dirname, 'files/img/rettangolo.png'));
+})
+app.get('/imgp5', (req, res) =>{
+    res.sendFile(path.join(__dirname, 'files/img/trapezio.png'));
+})
+
