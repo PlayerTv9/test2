@@ -27,16 +27,16 @@ app.get('/esercizi', function (req, res) {
 
 //static files css
 app.get('/icss', function (req, res) {
-  res.sendFile(_path["default"].join(__dirname, 'files/style/index.css'));
+  res.sendFile(_path["default"].join(__dirname, '/index.css'));
 });
 app.get('/navbar', function (req, res) {
-  res.sendFile(_path["default"].join(__dirname, 'files/component/nav.html'));
+  res.sendFile(_path["default"].join(__dirname, '/nav.html'));
 });
 app.get('/navJS', function (req, res) {
-  res.sendFile(_path["default"].join(__dirname, 'files/script/includeHtml.js'));
+  res.sendFile(_path["default"].join(__dirname, '/includeHtml.js'));
 });
 app.get('/esp', function (req, res) {
-  res.sendFile(_path["default"].join(__dirname, 'files/script/espitagora.js'));
+  res.sendFile(_path["default"].join(__dirname, '/espitagora.js'));
 });
 
 // static img file
@@ -55,4 +55,16 @@ app.get('/imgp4', function (req, res) {
 });
 app.get('/imgp5', function (req, res) {
   res.sendFile(_path["default"].join(__dirname, 'files/img/trapezio.png'));
+});
+app.get('/imgp6', function (req, res) {
+  res.sendFile(_path["default"].join(__dirname, 'files/img/trapezio_rettangolo.png'));
+});
+app.get('/imgp7', function (req, res) {
+  res.sendFile(_path["default"].join(__dirname, 'files/img/trapezio_isoscele.png'));
+});
+app.get('/imgp8', function (req, res) {
+  res.sendFile(_path["default"].join(__dirname, 'files/img/triangolo_isoscele.png'));
+});
+app.get('/imgp9', function (req, res) {
+  res.sendFile(_path["default"].join(__dirname, 'files/img/triangolo_equilatero.png'));
 });
