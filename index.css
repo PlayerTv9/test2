@@ -47,6 +47,7 @@ h1, h2, h3, h4, p{
     justify-content: center;
     padding: 0 100px;
     display: flex;
+    padding-top: 50px;
   }
 
 
@@ -63,4 +64,19 @@ h1, h2, h3, h4, p{
 
 #button1:hover span{
     color: aquamarine;
+}
+
+.paddingTxt{
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.Rettangolo{
+    width: 600px;
+    height: 300px;
+    background:cadetblue;
+}
+
+.h1rett{
+    color: white;
 }

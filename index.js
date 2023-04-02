@@ -50,3 +50,9 @@ app.get('/imgp2', function (req, res) {
 app.get('/imgp3', function (req, res) {
   res.sendFile(_path["default"].join(__dirname, 'files/img/qadrato.png'));
 });
+app.get('/imgp4', function (req, res) {
+  res.sendFile(_path["default"].join(__dirname, 'files/img/rettangolo.png'));
+});
+app.get('/imgp5', function (req, res) {
+  res.sendFile(_path["default"].join(__dirname, 'files/img/trapezio.png'));
+});
