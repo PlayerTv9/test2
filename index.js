@@ -22,6 +22,15 @@ app.get('/pitagora',(req, res) =>{
 app.get('/esercizi',(req, res) =>{
     res.sendFile(path.join(__dirname, 'files/pages/esercizipitagora.html'));
 })
+app.get('/euclide',(req, res) =>{
+    res.sendFile(path.join(__dirname, 'files/pages/euclide.html'));
+})
+app.get('/erone',(req, res) =>{
+    res.sendFile(path.join(__dirname, 'files/pages/erone.html'));
+})
+app.get('/talete',(req, res) =>{
+    res.sendFile(path.join(__dirname, 'files/pages/talete.html'));
+})
 
 
 //static files css

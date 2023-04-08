@@ -49,6 +49,15 @@ h1, h2, h3, h4, p{
     display: flex;
     padding-top: 100px;
   }
+.ciao-container2{
+    margin: 20px 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+    display: flex;
+    padding-top: 100px;
+  }
 
 
 
@@ -79,4 +88,10 @@ h1, h2, h3, h4, p{
 
 .h1rett{
     color: white;
+}
+
+.imaggineFattaBene{
+    width: 604;
+    height: 638;
+    border-image: fill;
 }

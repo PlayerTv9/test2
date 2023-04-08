@@ -24,6 +24,15 @@ app.get('/pitagora', function (req, res) {
 app.get('/esercizi', function (req, res) {
   res.sendFile(_path["default"].join(__dirname, '/esercizipitagora.html'));
 });
+app.get('/euclide', function (req, res) {
+  res.sendFile(_path["default"].join(__dirname, '/euclide.html'));
+});
+app.get('/erone', function (req, res) {
+  res.sendFile(_path["default"].join(__dirname, '/erone.html'));
+});
+app.get('/talete', function (req, res) {
+  res.sendFile(_path["default"].join(__dirname, '/talete.html'));
+});
 
 //static files css
 app.get('/icss', function (req, res) {
