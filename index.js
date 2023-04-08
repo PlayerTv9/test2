@@ -68,3 +68,6 @@ app.get('/imgp8', function (req, res) {
 app.get('/imgp9', function (req, res) {
   res.sendFile(_path["default"].join(__dirname, 'files/img/triangolo_equilatero.png'));
 });
+app.get('/imgp10', function (req, res) {
+  res.sendFile(_path["default"].join(__dirname, 'files/img/cerchio2.png'));
+});
