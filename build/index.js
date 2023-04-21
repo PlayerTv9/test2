@@ -19,36 +19,36 @@ app.listen(5000, function () {
   console.log("app is listening to port http://localhost:5000");
 });
 app.get('/pitagora', function (req, res) {
-  res.sendFile(_path["default"].join(__dirname, 'files/pages/pitagora.html'));
+  res.sendFile(_path["default"].join(__dirname, '/pitagora.html'));
 });
 app.get('/esercizi', function (req, res) {
-  res.sendFile(_path["default"].join(__dirname, 'files/pages/esercizipitagora.html'));
+  res.sendFile(_path["default"].join(__dirname, '/esercizipitagora.html'));
 });
 app.get('/euclide', function (req, res) {
-  res.sendFile(_path["default"].join(__dirname, 'files/pages/euclide.html'));
+  res.sendFile(_path["default"].join(__dirname, '/euclide.html'));
 });
 app.get('/erone', function (req, res) {
-  res.sendFile(_path["default"].join(__dirname, 'files/pages/erone.html'));
+  res.sendFile(_path["default"].join(__dirname, '/erone.html'));
 });
 app.get('/talete', function (req, res) {
-  res.sendFile(_path["default"].join(__dirname, 'files/pages/talete.html'));
+  res.sendFile(_path["default"].join(__dirname, '/talete.html'));
 });
 
 //static files css
 app.get('/icss', function (req, res) {
-  res.sendFile(_path["default"].join(__dirname, 'files/style/index.css'));
+  res.sendFile(_path["default"].join(__dirname, '/index.css'));
 });
 app.get('/navbar', function (req, res) {
-  res.sendFile(_path["default"].join(__dirname, 'files/component/nav.html'));
+  res.sendFile(_path["default"].join(__dirname, '/nav.html'));
 });
 app.get('/navJS', function (req, res) {
-  res.sendFile(_path["default"].join(__dirname, 'files/script/includeHtml.js'));
+  res.sendFile(_path["default"].join(__dirname, '/includeHtml.js'));
 });
 app.get('/esp', function (req, res) {
-  res.sendFile(_path["default"].join(__dirname, 'files/script/espitagora.js'));
+  res.sendFile(_path["default"].join(__dirname, '/espitagora.js'));
 });
 app.get('/ijs', function (req, res) {
-  res.sendFile(_path["default"].join(__dirname, 'files/script/click.js'));
+  res.sendFile(_path["default"].join(__dirname, '/click.js'));
 });
 
 // static img file
