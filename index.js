@@ -47,6 +47,9 @@ app.get('/navJS',(req, res) =>{
 app.get('/esp',(req, res) =>{
     res.sendFile(path.join(__dirname, 'files/script/espitagora.js'));
 })
+app.get('/ijs',(req, res) =>{
+    res.sendFile(path.join(__dirname, 'files/script/click.js'));
+})
 
 // static img file
 
